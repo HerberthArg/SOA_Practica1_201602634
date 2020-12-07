@@ -15,8 +15,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'cp index.html /var/www/html'
-                sh 'cp -r css /var/www/css'
-                sh 'cp -r images /var/www/images'
+                sh 'cp -r css /var/www/html/css'
+                sh 'cp -r images /var/www/html/images'
             }
         }
     }
