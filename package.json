@@ -1,0 +1,29 @@
+{
+  "name": "soa_practica1_201602634",
+  "version": "1.0.0",
+  "description": "Prueba2# SOA_Practica1_201602634 Hola",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --exit",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerberthArg/SOA_Practica1_201602634.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HerberthArg/SOA_Practica1_201602634/issues"
+  },
+  "homepage": "https://github.com/HerberthArg/SOA_Practica1_201602634#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1"
+  }
+}
