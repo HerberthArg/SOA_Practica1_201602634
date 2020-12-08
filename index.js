@@ -3,7 +3,13 @@ const app = express();
 const port = 3000;
 
 app.get('/login', (req, res) => {
-    res.status(500).json({mensaje: "Inicio de sesion correcto"})
+    if(1==1)
+        res.status(200).json({mensaje: "Pruebas correctas"})
+    else
+        res.status(500).json({mensaje: "Pruebas incorrectas"})
+
+
+    
 });
 
 app.listen(port, () => {
